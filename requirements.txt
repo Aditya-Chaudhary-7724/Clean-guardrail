@@ -1,0 +1,25 @@
+# Document parsing
+python-docx>=0.8.11
+lxml
+
+# Optional: for Office macros/legacy use (remove if you aren't analyzing Office macros directly)
+oletools
+
+# Data and machine learning utilities
+pandas
+numpy>=1.23.0
+scikit-learn
+
+# Hugging Face models (ModernBERT, ASR, etc.) and audio processing
+transformers>=4.37.0
+torch>=2.0.0
+huggingface-hub>=0.18.0
+
+# Audio transcription dependencies
+soundfile>=0.12.1
+librosa>=0.10.0
+scipy>=1.10.0
+
+# Standard tools/quality of life
+pathlib
+tqdm
